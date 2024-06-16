@@ -9,8 +9,9 @@ int binary_to_decimal(string binary_value) {
    int ans = 0;
   
    while(last_index >= 0) {
-    if(binary_value[last_index--] == '1') ans+=(int)pow(2.00,double(power));
-
+    if(binary_value[last_index--] == '1') 
+      ans+=(int)pow(2.00,double(power));
+      
     power++;
    }
    
