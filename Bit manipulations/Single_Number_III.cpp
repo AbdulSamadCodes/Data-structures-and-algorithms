@@ -45,9 +45,12 @@ int main() {
   int length = sizeof(array) / sizeof(array[0]);
 
   int *ans = new int[2];
+  int *ans2 = new int[2];
   // ans = single_numbers_with_map(array,length);
-  // ans = single_numbers_with_buckets(array,length); 
+  // ans2 = single_numbers_with_buckets(array,length); 
+
   for(int i = 0; i < 2; i++) cout << ans[i] << endl;
+  for(int i = 0; i < 2; i++) cout << ans2[i] << endl;
 
   delete[] ans;
   return 0;
